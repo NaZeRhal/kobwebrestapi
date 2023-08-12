@@ -1,0 +1,14 @@
+site:
+  title: "KobWebRestApi"
+
+server:
+  files:
+    dev:
+      contentRoot: "build/processedResources/js/main/public"
+      script: "build/developmentExecutable/kobwebrestapi.js"
+      api: "build/libs/kobwebrestapi.jar"
+    prod:
+      script: "build/distributions/kobwebrestapi.js"
+      siteRoot: ".kobweb/site"
+
+  port: 8080
